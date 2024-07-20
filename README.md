@@ -4,6 +4,12 @@
 
 - npx react-native start
 
+## project rename
+
+npm install react-native-rename -g
+
+npx react-native-rename "Travel App" -b "com.junedomingo.travelapp"
+
 ## lib
 
 1. react-native
