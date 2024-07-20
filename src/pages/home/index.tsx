@@ -1,10 +1,11 @@
 import { Button, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import styled, { css } from 'styled-components/native';
 
 const HomePage = ({ navigation }) => {
   return (
     <SafeAreaView>
-      <Text>Home</Text>
+      <HomeTextWrapper>Home</HomeTextWrapper>
       <Button
         title='Go to Details'
         onPress={() => navigation.navigate('details')}
@@ -14,3 +15,8 @@ const HomePage = ({ navigation }) => {
 };
 
 export default HomePage;
+
+const HomeTextWrapper = styled.Text`
+  font-size: 18px;
+  color: blue;
+`;
