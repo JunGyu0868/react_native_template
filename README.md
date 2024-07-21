@@ -14,7 +14,8 @@ npm install react-native-rename -g
 4. npm install
 5. pod install(ios폴더내에서하기)
 6. xcode로 ios 폴더 열어서 시뮬레이터 실행되는 것 수정하기
-7. npx start
+7. git초기화
+8. npx start
 
 
 
